@@ -114,6 +114,7 @@ public class MyActivity extends Activity {
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             d("onCreate()");
+            setRetainInstance(true);
         }
 
         @Override
